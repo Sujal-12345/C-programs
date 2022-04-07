@@ -1,0 +1,18 @@
+include<stdio.h>
+
+int main()
+{
+    int sum, difference, product, a, b;
+    float Division;
+    printf("Enter Values of a and b: ");
+    scanf("%d %d", &a, &b);
+    
+    sum = a+b;
+    printf("Sum of %d and %d is %d", a,b,sum);
+    difference=a-b;
+    printf("Difference of a=%d and b=%d is %d \n",a,b,difference);
+    product=a*b;
+    printf("Product of a=%d and b=%d is %d \n",a,b,product);
+    division=a/b;
+    printf("Division of a=%d and b=%d is %f ",a,b,division);
+}  
