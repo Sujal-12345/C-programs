@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int main()
+{
+    float r,areaofcircle;
+    printf("Enter radius: ");
+    scanf("%f",&r);
+    areaofcircle= 3.14*r*r;
+    printf("Area of Circle is: %f \n",areaofcircle);
+    
+    float a,areaofsquare;
+    printf("Enter Side: ");
+    scanf("%f",&a);
+    areaofsquare= a*a;
+    printf("Area of Square is: %f \n",areaofsquare);
+    
+    float l,b,areaofrect;
+    printf("Enter length and breadth: ");
+    scanf("%f%f",&l,&b);
+    areaofrect= l*b;
+    printf("Area of rectangle is: %f",areaofrect);
+    
+}
