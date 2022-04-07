@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+int main()
+{
+  printf("int is of %d bytes\n", sizeof(int));
+  printf("long int is of %d bytes\n", sizeof(long int));
+  printf("float is of %d bytes\n", sizeof(float));
+  printf("double is of %d bytes\n", sizeof(double));
+  printf("char is of %d bytes\n", sizeof(char));
+  printf("short int is of %d bytes\n", sizeof(short int));
+}
