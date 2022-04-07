@@ -1,0 +1,8 @@
+#include<stdio.h>
+
+int main()
+{
+    float h;
+    printf("Address of variable is %d \n",&h);
+    printf("Address of variable in hexadecimal form is %x",&h);
+}
