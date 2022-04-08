@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main()
+{
+    int a, count = 1;
+    printf("Enter a number you want to print the table of: ");
+    scanf("%d", &a);
+    
+    while (count <= 5)
+    {
+        printf("%d * %d = %d", a, count, a*count);
+        count++;
+    }
+    return 0;
+}
