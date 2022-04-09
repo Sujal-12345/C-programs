@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{
+    int x, xremainder, num, result=0;
+    printf("Enter a Number to check for ARMSTRONG number: ");
+    scanf("%d", &num);
+    x = num;
+    
+    while(x!=0)
+    {
+        xremainder = x%10;
+        result += xremainder*xremainder*xremainder;
+        x = x/10;
+    }
+    if (result == num)
+        printf("%d is ARMSTRONG number: ", num);
+    
+    else
+        printf("%d is not ARMSTRONG number: ", num);
+    
+    return 0;
+}
