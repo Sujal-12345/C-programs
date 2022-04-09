@@ -1,0 +1,32 @@
+#include <stdio.h>
+int main()
+{
+    int a,b,c,i;
+    printf("Enter 2 numbers: ");
+    scanf("%d%d",&a,&b);
+    printf("Choose 1 to Add, 2 to Subtract, 3 to Multiply and 4 to Divide: ");
+    scanf("%d",&i);
+    
+    switch(i)
+    {
+        case 1: c=a+b;
+        printf("c=%d",c);
+        break;
+        
+        case 2: c=a-b;
+        printf("c=%d",c);
+        break;
+        
+        case 3: c=a*b;
+        printf("c=%d",c);
+        break;
+        
+        case 4: c=a/b;
+        printf("c=%d",c);
+        break;
+        
+        default:
+        printf("Wrong Choice");
+    }
+    return 0;
+}
