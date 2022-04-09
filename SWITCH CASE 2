@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main()
+{
+    float x,a;
+    int i;
+    printf("Enter currency in Rupees: ");
+    scanf("%f", &x);
+    printf("Enter 1 for DOLLARS and 2 for DIRHAM: ");
+    scanf("%d", &i);
+    
+    switch(i)
+    {
+        case 1:
+        a = x* 1/70;
+        printf("%f converted to DOLLARS = %f", x, a);
+        break;
+        
+        case 2:
+        a = x * 0.049;
+        printf("%f converted to DIRHAM = %f", x, a);
+        break;
+        
+        default:
+        printf("Wrong Choice");
+    }
+    return 0;
+}
